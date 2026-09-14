@@ -619,6 +619,7 @@ externalDatabase:
   database: "artifact_registry"
   existingSecret: ""
   existingSecretKey: "DATABASE_URL"
+  existingJDBCSecretKey: "JDBC_DATABASE_URL"
 
 # -- OpenSearch (full-text search engine)
 # Powers full-text artifact search. The backend auto-reindexes from
